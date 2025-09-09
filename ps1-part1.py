@@ -8,3 +8,12 @@
 
 
 # Perform calculations. Be careful about string formatting for autograders.
+
+firstnum = int(input("Enter an intfeger between 10 and 100: "))
+secondnum = int(input("Enter an integer less than 4: "))
+
+print(f"You entered {firstnum} and {secondnum}")
+print(f"{firstnum} + {secondnum} = {firstnum + secondnum}")
+print(f"{firstnum} * {secondnum} = {firstnum * secondnum}")
+print(f"{firstnum} ** {secondnum} = {firstnum ** secondnum}")
+print(f"{firstnum} % {secondnum} = {firstnum % secondnum}")
